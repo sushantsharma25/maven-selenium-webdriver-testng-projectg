@@ -18,17 +18,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-
 public class pkb {
-
-	@Test
+@Test
 publicvoidtestgooglrsearch(){
  
 //WebDriver driver = newFirefoxDriver();
-FirefoxOptions options = new FirefoxOptions();
-options.addArguments("-headless");
-WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),options)
+//FirefoxOptions options = new FirefoxOptions();
+//options.addArguments("-headless");
+//WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),options);
+WebDriver driver = new RemoteWebDriver(
+        new URL("http://40.113.221.175:4444/wd/hub"),
+        new FirefoxOptions());
 //it will open the goggle page
 driver.get("http://google.com"); 
 //we expect the title “Google “ should be present 
