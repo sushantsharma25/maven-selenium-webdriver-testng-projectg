@@ -17,6 +17,7 @@ import static variables.mytheresa.UserVariables.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.remote.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
