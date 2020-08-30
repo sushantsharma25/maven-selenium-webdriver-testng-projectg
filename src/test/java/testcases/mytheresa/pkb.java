@@ -47,7 +47,7 @@ System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title ma
  }
 catch (MalformedURLException e) {
       // if key is not a valid path then it cannot be resolved to an unmanged resource
-	System.out.println("incorrect url")
+	System.out.println("incorrect url");
     }
  }
 }
