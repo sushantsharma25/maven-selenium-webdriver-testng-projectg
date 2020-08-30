@@ -24,8 +24,8 @@ import java.net.*;
 import org.testng.annotations.Test;
 public class pkb {
 @Test
-public void testgooglrsearch(){
- 
+public void testgooglrsearch() throws MalformedURLException{
+ try {
 //WebDriver driver = newFirefoxDriver();
 //FirefoxOptions options = new FirefoxOptions();
 //options.addArguments("-headless");
@@ -44,6 +44,11 @@ System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
 Assert.assertEquals(Actualtitle, Expectedtitle);
 //print out the result
 System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title matched ");
+ }
+catch (MalformedURLException e) {
+      // if key is not a valid path then it cannot be resolved to an unmanged resource
+	System.out.println("incorrect url")
+    }
  }
 }
 	
