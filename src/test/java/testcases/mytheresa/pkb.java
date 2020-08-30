@@ -36,7 +36,7 @@ WebDriver driver = new RemoteWebDriver(
 //it will open the goggle page
 //driver.get("http://google.com"); 
 //driver.get("http://www.google.com");
-driver.quit();
+//driver.quit();
 //we expect the title “Google “ should be present 
 //String Expectedtitle = "Google";
 //it will fetch the actual title 
