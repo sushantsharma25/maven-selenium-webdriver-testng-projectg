@@ -14,14 +14,23 @@ import objectRepository.mytheresa.MytheresaMyAccountPage;
 
 import static variables.mytheresa.UserVariables.*;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
 public class pkb {
 
 	@Test
 publicvoidtestgooglrsearch(){
  
-WebDriver driver = newFirefoxDriver();
+//WebDriver driver = newFirefoxDriver();
+FirefoxOptions options = new FirefoxOptions();
+options.addArguments("-headless");
+WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),options)
 //it will open the goggle page
-driver.get("http://google.in"); 
+driver.get("http://google.com"); 
 //we expect the title “Google “ should be present 
 String Expectedtitle = "Google";
 //it will fetch the actual title 
