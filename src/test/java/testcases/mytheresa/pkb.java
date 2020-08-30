@@ -20,7 +20,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 public class pkb {
 @Test
-publicvoidtestgooglrsearch(){
+public void testgooglrsearch(){
  
 //WebDriver driver = newFirefoxDriver();
 //FirefoxOptions options = new FirefoxOptions();
