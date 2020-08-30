@@ -35,7 +35,7 @@ WebDriver driver = new RemoteWebDriver(
         //new FirefoxOptions());
 //it will open the goggle page
 //driver.get("http://google.com"); 
-driver.get("http://www.google.com");
+//driver.get("http://www.google.com");
 driver.quit();
 //we expect the title “Google “ should be present 
 //String Expectedtitle = "Google";
