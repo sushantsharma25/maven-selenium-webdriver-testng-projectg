@@ -31,7 +31,7 @@ public void testgooglrsearch() throws MalformedURLException{
 //FirefoxOptions options = new FirefoxOptions();
 //options.addArguments("-headless");
 //WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),new FirefoxOptions());
-RemoteWebDriver driver = new RemoteWebDriver(new URL("http://52.186.156.179:4444/wd/hub"),new FirefoxOptions());
+RemoteWebDriver driver = new RemoteWebDriver(new URL("http://52.136.125.41:4444/wd/hub"),new FirefoxOptions());
 driver.get("http://www.google.com");
 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 driver.findElement(By.name("q")).sendKeys("Selenium");
