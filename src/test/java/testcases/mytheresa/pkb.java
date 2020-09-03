@@ -37,7 +37,7 @@ driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 driver.findElement(By.name("q")).sendKeys("Selenium");
 String name = driver.findElement(By.name("q")).getAttribute("name");
 System.out.println("################################################################################################################");
-System.out.println("Browser Return String: "+name);
+System.out.println("Browser String: "+name);
 System.out.println("################################################################################################################");
 //System.out.println(driver.getTitle());
 //Assert.assertEquals("Only Testing");
