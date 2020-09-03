@@ -19,8 +19,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.remote.*;
-//import org.testng.Assert;
-import org.junit.Assert;
+import org.testng.Assert;
 import java.net.*;
 import org.testng.annotations.Test;
 public class pkb {
