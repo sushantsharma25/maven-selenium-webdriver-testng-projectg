@@ -19,7 +19,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.remote.*;
-import org.testng.Assert;
+//import org.testng.Assert;
+import org.junit.Assert;
 import java.net.*;
 import org.testng.annotations.Test;
 public class pkb {
@@ -32,6 +33,8 @@ public void testgooglrsearch() throws MalformedURLException{
 //WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),new FirefoxOptions());
 RemoteWebDriver driver = new RemoteWebDriver(new URL("http://52.186.156.179:4444/wd/hub"),new FirefoxOptions());
 driver.get("https://www.google.com");
+//Assert.assertEquals("Only Testing");
+Assert.assertEquals("testing","testing");
 //we expect the title “Google “ should be present 
 String Expectedtitle = "Google";
 System.out.println("Before Running HIIIIIIIIIIIIIIIIIIIIIIIIIII");
