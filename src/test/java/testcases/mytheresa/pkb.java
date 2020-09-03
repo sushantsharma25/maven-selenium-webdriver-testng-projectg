@@ -35,6 +35,8 @@ RemoteWebDriver driver = new RemoteWebDriver(new URL("http://52.186.156.179:4444
 driver.get("http://www.google.com");
 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 driver.findElement(By.name("q")).sendKeys("Selenium");
+string name = driver.findElement(By.name("q")).getAttribute("name");
+System.out.println(name);
 //System.out.println(driver.getTitle());
 //Assert.assertEquals("Only Testing");
 //Assert.assertEquals("testing","testing");
