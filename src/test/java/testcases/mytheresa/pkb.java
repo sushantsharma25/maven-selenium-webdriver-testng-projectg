@@ -32,17 +32,18 @@ public void testgooglrsearch() throws MalformedURLException{
 //WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),new FirefoxOptions());
 RemoteWebDriver driver = new RemoteWebDriver(new URL("http://52.186.156.179:4444/wd/hub"),new FirefoxOptions());
 driver.get("http://52.186.156.179:8080");
+//Thread.sleep(5000)
 System.out.println(driver.getCurrentUrl());
 //Assert.assertEquals("Only Testing");
-Assert.assertEquals("testing","testing");
+//Assert.assertEquals("testing","testing");
 //we expect the title “Google “ should be present 
-String Expectedtitle = "Google";
-System.out.println("Before Running HIIIIIIIIIIIIIIIIIIIIIIIIIII");
+//String Expectedtitle = "Google";
+//System.out.println("Before Running HIIIIIIIIIIIIIIIIIIIIIIIIIII");
 	 
 //it will fetch the actual title 
-String Actualtitle = driver.getCurrentUrl();
+//String Actualtitle = driver.getCurrentUrl();
 //String Actualtitle = driver.getTitle();
-System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
+//System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
 //it will compare actual title and expected title
 //Assert.assertEquals(Actualtitle, Expectedtitle);
 //print out the result
