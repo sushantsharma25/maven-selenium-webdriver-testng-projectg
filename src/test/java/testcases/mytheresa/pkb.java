@@ -31,7 +31,8 @@ public void testgooglrsearch() throws MalformedURLException{
 //options.addArguments("-headless");
 //WebDriver driver = new RemoteWebDriver(new URL("http://40.113.221.175:4444/wd/hub"),new FirefoxOptions());
 RemoteWebDriver driver = new RemoteWebDriver(new URL("http://52.186.156.179:4444/wd/hub"),new FirefoxOptions());
-driver.get("https://www.google.com");
+driver.get("https://www.w3schools.com");
+System.out.println(driver.getCurrentUrl());
 //Assert.assertEquals("Only Testing");
 Assert.assertEquals("testing","testing");
 //we expect the title “Google “ should be present 
