@@ -43,9 +43,7 @@ System.out.println("############################################################
 //Assert.assertEquals("Only Testing");
 //Assert.assertEquals("testing","testing");
 //we expect the title “Google “ should be present 
-//String Expectedtitle = "Google";
-System.out.println("Before Running HIIIIIIIIIIIIIIIIIIIIIIIIIII");
-	 
+//String Expectedtitle = "Google";	 
 //it will fetch the actual title 
 //String Actualtitle = driver.getCurrentUrl();
 //String Actualtitle = driver.getTitle();
